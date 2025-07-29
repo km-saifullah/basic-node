@@ -12,5 +12,8 @@ app.get("/test", (req, res) => {
 app.get("/hello", (req, res) => {
   res.end("<h1>Hello there</h1>");
 });
+app.get("/me", (req, res) => {
+  res.end("<h1>Hello Monmoy</h1>");
+});
 
 app.listen(8000, () => console.log("Server is running"));
