@@ -10,4 +10,8 @@ app.get("/about", (req, res) => {
   res.end("<h1>ABout Page</h1>");
 });
 
+app.get("/me", (req, res) => {
+  res.end("<h1>Hi everyone</h1>");
+});
+
 app.listen(8000, () => console.log("Server is running"));
